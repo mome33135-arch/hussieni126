@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 960" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040e1d" />
+      <stop offset="40%" stop-color="#071B36" />
+      <stop offset="100%" stop-color="#0c2d5e" />
+    </linearGradient>
+    <linearGradient id="g1Orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB347" />
+      <stop offset="100%" stop-color="#F28C18" />
+    </linearGradient>
+    <linearGradient id="g1Gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9D423" />
+      <stop offset="100%" stop-color="#FF4E50" />
+    </linearGradient>
+    <pattern id="g1Grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#F28C18" stroke-width="0.6" stroke-opacity="0.12" />
+      <circle cx="15" cy="15" r="0.8" fill="#FFFFFF" fill-opacity="0.1" />
+    </pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Cover Background -->
+  <rect width="700" height="960" fill="url(#g1Bg)" rx="16" />
+  <rect width="700" height="960" fill="url(#g1Grid)" rx="16" />
+
+  <!-- Diagonal Geometry Bands -->
+  <path d="M 0 0 L 450 0 L 150 960 L 0 960 Z" fill="#F28C18" fill-opacity="0.04" />
+  <path d="M 700 200 L 250 960 L 700 960 Z" fill="#0c2d5e" fill-opacity="0.4" />
+  <circle cx="580" cy="220" r="220" fill="none" stroke="url(#g1Orange)" stroke-width="2" stroke-opacity="0.25" stroke-dasharray="8,6" />
+  <circle cx="580" cy="220" r="170" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1" />
+
+  <!-- Mathematical Diagrams & Coordinate Lines -->
+  <g opacity="0.35" stroke="#FFFFFF" stroke-width="1.2">
+    <!-- Cartesian Axes -->
+    <line x1="450" y1="280" x2="650" y2="280" marker-end="url(#arrow)" />
+    <line x1="550" y1="180" x2="550" y2="380" marker-end="url(#arrow)" />
+    <!-- Parabola curve -->
+    <path d="M 470 360 Q 550 200 630 360" fill="none" stroke="#F28C18" stroke-width="2.5" />
+    <!-- Angle & Triangle -->
+    <polygon points="120,720 280,720 240,620" fill="none" stroke="#F28C18" stroke-width="2" />
+    <path d="M 160 720 A 40 40 0 0 0 150 700" fill="none" stroke="#F9D423" stroke-width="2" />
+  </g>
+
+  <!-- Floating Math Symbols -->
+  <g font-family="'Cairo', 'Courier New', monospace" font-size="18" fill="#F28C18" opacity="0.45" font-weight="bold">
+    <text x="60" y="240">x + y = 10</text>
+    <text x="80" y="280">2a² · 3a³ = 6a⁵</text>
+    <text x="50" y="650">∠ABC = 90°</text>
+    <text x="520" y="470">(-b ± √Δ) / 2a</text>
+    <text x="490" y="880">π r²</text>
+  </g>
+
+  <!-- Top Series Header Badge -->
+  <g transform="translate(50, 45)">
+    <rect width="600" height="90" rx="18" fill="#050B14" fill-opacity="0.8" stroke="url(#g1Orange)" stroke-width="1.5" />
+    <text x="300" y="40" font-family="'Cairo', sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">سلسلة الحسيني في الرياضيات</text>
+    <text x="300" y="70" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#F28C18" text-anchor="middle" letter-spacing="3">ALHUSSIENI MATHEMATICS SERIES • 2026</text>
+  </g>
+
+  <!-- Grade Title Display (Centerpiece) -->
+  <g transform="translate(60, 260)">
+    <!-- Glow Box -->
+    <rect width="580" height="230" rx="20" fill="#071B36" fill-opacity="0.9" stroke="url(#g1Orange)" stroke-width="3" filter="url(#shadow)" />
+    <rect x="15" y="15" width="550" height="200" rx="14" fill="none" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1" />
+    
+    <!-- Grade Tag -->
+    <rect x="180" y="-18" width="220" height="36" rx="18" fill="url(#g1Orange)" />
+    <text x="290" y="6" font-family="'Cairo', sans-serif" font-size="17" font-weight="800" fill="#071B36" text-anchor="middle">المرحلة الإعدادية</text>
+
+    <!-- Main Grade Text -->
+    <text x="290" y="95" font-family="'Cairo', sans-serif" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">الصف الأول الإعدادي</text>
+    <text x="290" y="135" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#F28C18" text-anchor="middle" letter-spacing="1">FIRST PREPARATORY GRADE</text>
+
+    <!-- Subjects included -->
+    <line x1="100" y1="160" x2="480" y2="160" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1" />
+    <text x="290" y="190" font-family="'Cairo', sans-serif" font-size="18" font-weight="700" fill="#F4F6F8" text-anchor="middle">الجبر والإحصاء • الهندسة والقياس</text>
+  </g>
+
+  <!-- Educational Identity Tagline Box -->
+  <g transform="translate(130, 530)">
+    <rect width="440" height="65" rx="32" fill="#050B14" stroke="url(#g1Gold)" stroke-width="1.8" />
+    <text x="220" y="42" font-family="'Cairo', sans-serif" font-size="26" font-weight="900" fill="#F9D423" text-anchor="middle" letter-spacing="2">تبسيط  •  فهم  •  تميز</text>
+  </g>
+
+  <!-- Feature Bullet Badges -->
+  <g transform="translate(70, 640)" font-family="'Cairo', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">
+    <g transform="translate(0, 0)">
+      <rect width="170" height="48" rx="10" fill="#0c2d5e" stroke="#F28C18" stroke-width="1" />
+      <text x="85" y="30" text-anchor="middle">شرح مبسط ومنظم</text>
+    </g>
+    <g transform="translate(195, 0)">
+      <rect width="170" height="48" rx="10" fill="#0c2d5e" stroke="#F28C18" stroke-width="1" />
+      <text x="85" y="30" text-anchor="middle">تدريبات متدرجة</text>
+    </g>
+    <g transform="translate(390, 0)">
+      <rect width="170" height="48" rx="10" fill="#0c2d5e" stroke="#F28C18" stroke-width="1" />
+      <text x="85" y="30" text-anchor="middle">مراجعات ونماذج بلوم</text>
+    </g>
+  </g>
+
+  <!-- Author & Bottom Bar -->
+  <g transform="translate(50, 770)">
+    <rect width="600" height="135" rx="16" fill="url(#g1Orange)" filter="url(#shadow)" />
+    <!-- White Card Inset -->
+    <rect x="6" y="6" width="588" height="123" rx="12" fill="#071B36" />
+    
+    <text x="300" y="45" font-family="'Cairo', sans-serif" font-size="16" font-weight="600" fill="#F4F6F8" text-anchor="middle">إعداد وتأليف</text>
+    <text x="300" y="85" font-family="'Cairo', sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle">أ. محمد الحسيني</text>
+    <text x="300" y="112" font-family="'Inter', 'Cairo', sans-serif" font-size="15" font-weight="700" fill="#F28C18" text-anchor="middle">Mohamed Elhussieni • معلم رياضيات</text>
+  </g>
+
+  <!-- Outer Border Frame -->
+  <rect x="14" y="14" width="672" height="932" rx="14" fill="none" stroke="url(#g1Orange)" stroke-width="2.5" stroke-opacity="0.8" />
+</svg>

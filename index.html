@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Elhussieni | Mathematics Teacher – Egypt | محمد الحسيني - معلم رياضيات</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Official Portfolio of Mohamed Elhussieni, a professional Mathematics Teacher in Egypt with 5 years of experience. Creator of the Elhussieni Mathematics Series (2026). Specializing in simplifying concepts, Bloom's Taxonomy, and educational content design.">
+  <meta name="keywords"
+    content="Mohamed Elhussieni, Mathematics Teacher, معلم رياضيات, محمد الحسيني, Elhussieni Series, سلسلة الحسيني في الرياضيات, Egypt Math Educator, Bloom's Taxonomy">
+  <meta name="author" content="Mohamed Elhussieni">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mohamed Elhussieni | Mathematics Teacher – Egypt">
+  <meta property="og:description"
+    content="Simplify • Understand • Excel | تبسيط • فهم • تميز — Professional Mathematics Educator & Author of Elhussieni Mathematics Series.">
+  <meta property="og:image" content="assets/profile.jpg">
+
+  <!-- Favicon Monogram -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23071B36'/><text x='50' y='66' font-size='50' font-family='sans-serif' font-weight='900' fill='%23F28C18' text-anchor='middle'>ME</text></svg>">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Background Math Particle Animation Canvas -->
+  <canvas id="math-canvas"></canvas>
+
+  <!-- ==========================================================================
+       1. STICKY NAVIGATION BAR
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="nav-brand" aria-label="Mohamed Elhussieni Home">
+        <img src="assets/brand-emblem.png" alt="صناع التميز مع حسيني" class="brand-emblem-img" width="44" height="44" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="brand-badge" style="display: none;">ME</div>
+        <div class="brand-info">
+          <span class="brand-name">Mohamed Elhussieni</span>
+          <span class="brand-tag">معلم رياضيات • Egypt</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav id="nav-links" class="nav-links" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#university" class="nav-link">University</a>
+        <a href="#content-dev" class="nav-link">Content</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education-achievements" class="nav-link">Achievements</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & Language Toggle & Mobile Hamburger) -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="action-btn" aria-label="Switch Theme" title="Toggle Dark/Light Mode">
+          <i id="theme-icon" class="fas fa-moon"></i>
+        </button>
+
+        <!-- Language Toggle -->
+        <button id="lang-toggle" class="action-btn lang-toggle-btn" aria-label="Toggle Language"
+          title="تغيير اللغة">عربي</button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-toggle" class="action-btn mobile-toggle" aria-label="Toggle Navigation Menu"
+          aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         2. HERO SECTION
+         ========================================================================== -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Text Content -->
+          <div class="hero-content reveal">
+            <!-- Educational Motto Badge -->
+            <div class="hero-motto-badge">
+              <span class="motto-en">Simplify • Understand • Excel</span>
+              <span class="motto-divider"></span>
+              <span class="motto-ar">تبسيط • فهم • تميز</span>
+            </div>
+
+            <h1 class="hero-name">Mohamed Elhussieni</h1>
+            <div class="hero-title-en">Mathematics Teacher – Egypt</div>
+            <div class="hero-title-ar">محمد الحسيني — معلم رياضيات</div>
+
+            <p class="hero-bio">
+              I am a Mathematics Teacher with 5 years of teaching experience, dedicated to simplifying mathematical
+              concepts, building deep understanding, and designing meaningful educational experiences for students from
+              preparatory and secondary levels to selected university mathematics courses.
+            </p>
+
+            <p class="hero-bio-ar">
+              أنا معلم رياضيات بخبرة 5 سنوات، أعمل على تبسيط المفاهيم الرياضية وبناء الفهم الحقيقي لدى الطلاب، مع تصميم
+              محتوى تعليمي وتقييمات تساعد على الانتقال من الفهم إلى التطبيق والتميز.
+            </p>
+
+            <!-- Call to Actions -->
+            <div class="hero-ctas">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-book-open"></i>
+                <span>Explore My Work</span>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i>
+                <span>Contact Me</span>
+              </a>
+              <a href="#projects" class="btn btn-outline-gold">
+                <i class="fas fa-award"></i>
+                <span>View Elhussieni Series</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Portrait Visual -->
+          <div class="hero-visual reveal delay-1">
+            <div class="portrait-wrapper">
+              <!-- Floating Badge 1: Experience -->
+              <div class="math-floating-badge badge-top-right">
+                <div class="badge-icon">
+                  <i class="fas fa-compass"></i>
+                </div>
+                <div>
+                  <div class="badge-text-primary">5+ Years</div>
+                  <div class="badge-text-secondary">Teaching Experience</div>
+                </div>
+              </div>
+
+              <!-- Floating Badge 2: Series -->
+              <div class="math-floating-badge badge-bottom-left">
+                <div class="badge-icon">
+                  <i class="fas fa-square-root-variable"></i>
+                </div>
+                <div>
+                  <div class="badge-text-primary">Elhussieni Series</div>
+                  <div class="badge-text-secondary">Prep Mathematics • 2026</div>
+                </div>
+              </div>
+
+              <!-- Photo Frame -->
+              <div class="portrait-frame">
+                <img src="assets/profile.jpg" onerror="this.onerror=null; this.src='assets/profile.svg';"
+                  alt="Mohamed Elhussieni - Mathematics Teacher in Egypt" class="portrait-img" width="440" height="550"
+                  loading="eager">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. PROFESSIONAL HIGHLIGHTS & STATISTICS
+         ========================================================================== -->
+    <section class="highlights-section" id="highlights">
+      <div class="container">
+        <div class="stats-grid">
+          <!-- Stat 1 -->
+          <div class="stat-card reveal delay-1">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="5">0</span>
+              <span class="stat-suffix">+</span>
+            </div>
+            <div class="stat-title">Years of Teaching Experience</div>
+            <div class="stat-title-ar">سنوات من الخبرة التعليمية</div>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="stat-card reveal delay-2">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="3">0</span>
+            </div>
+            <div class="stat-title">Preparatory Grades Covered</div>
+            <div class="stat-title-ar">صفوف المرحلة الإعدادية كاملة</div>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="stat-card reveal delay-3">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="2026">0</span>
+            </div>
+            <div class="stat-title">Elhussieni Mathematics Series</div>
+            <div class="stat-title-ar">سلسلة الحسيني في الرياضيات</div>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="stat-card reveal delay-4">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="2019">0</span>
+            </div>
+            <div class="stat-title">Distinguished Placement</div>
+            <div class="stat-title-ar">المركز المتميز – مسابقة المعلم الصغير</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. ABOUT ME SECTION
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-user-graduate"></i> Academic Profile</span>
+          <h2 class="section-title">About Mohamed Elhussieni</h2>
+          <div class="section-subtitle-ar">نبذة عن المعلم</div>
+          <p class="section-desc">
+            Bridging conceptual mathematical rigor, cognitive assessment design, and student-centered clarity.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Biography -->
+          <div class="about-card reveal">
+            <div class="about-author-header">
+              <div class="about-author-avatar-wrap">
+                <img src="assets/profile.jpg" onerror="this.onerror=null; this.src='assets/profile.svg';" alt="Mohamed Elhussieni" class="about-author-avatar">
+                <img src="assets/brand-emblem.png" alt="صناع التميز مع حسيني" class="about-author-seal" onerror="this.style.display='none';">
+              </div>
+              <div>
+                <h3 class="about-author-name">Mohamed Elhussieni</h3>
+                <div class="about-author-title">Mathematics Teacher – Egypt | محمد الحسيني</div>
+                <div class="about-author-tagline">"تبسيط • فهم • تميز | Simplify • Understand • Excel"</div>
+              </div>
+            </div>
+
+            <div class="about-text-lead">
+              Educator • Mathematics Specialist • Content & Assessment Designer
+            </div>
+
+            <p class="about-p">
+              I am Mohamed Elhussieni, a Mathematics Teacher in Egypt, holding a Bachelor of Science and Education with
+              a specialization in Mathematics from the Faculty of Education.
+            </p>
+
+            <p class="about-p">
+              With 5 years of teaching experience, I work with preparatory and secondary students and also provide
+              educational content for selected university-level mathematics courses.
+            </p>
+
+            <p class="about-p">
+              My teaching approach focuses on making mathematics clear, structured, understandable, and
+              practice-oriented. I believe that effective mathematics education goes beyond memorizing formulas; it is
+              about understanding relationships, developing reasoning, solving problems, and building confidence.
+            </p>
+
+            <p class="about-p">
+              In addition to teaching, I develop educational materials including lectures, revision resources,
+              assessments, mathematical workbooks, and video-based university mathematics explanations.
+            </p>
+
+            <div class="about-p-ar">
+              أنا محمد الحسيني، معلم رياضيات في مصر، حاصل على بكالوريوس العلوم والتربية تخصص الرياضيات من كلية التربية –
+              قسم الرياضيات العام.
+              <br><br>
+              أمتلك خبرة تمتد إلى 5 سنوات في تدريس الرياضيات لطلاب المرحلة الإعدادية والثانوية، بالإضافة إلى تقديم محتوى
+              تعليمي لبعض المقررات الجامعية في الرياضيات.
+              <br><br>
+              أركز في تدريسي على تبسيط المفاهيم الرياضية وبناء الفهم الحقيقي لدى الطالب، مع الانتقال بصورة منظمة من
+              الفكرة الأساسية إلى التدريب والتطبيق وحل المشكلات. ولا يقتصر عملي على التدريس فقط، بل أعمل أيضًا على إعداد
+              المحاضرات والمراجعات والاختبارات والملازم التعليمية والمحتوى المرئي، مع توظيف أدوات التقويم ومستويات بلوم
+              في بناء المحتوى والأسئلة.
+            </div>
+          </div>
+
+          <!-- Right Column: 4 Teaching Pillars -->
+          <div class="pillar-grid reveal delay-1">
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fas fa-lightbulb"></i></div>
+              <h3 class="pillar-title">Conceptual Clarity</h3>
+              <div class="pillar-title-ar">بناء الفهم الحقيقي</div>
+              <p class="pillar-desc">
+                Transforming abstract equations into intuitive relationships, prioritizing foundational understanding
+                before formula application.
+              </p>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fas fa-stairs"></i></div>
+              <h3 class="pillar-title">Structured Progression</h3>
+              <div class="pillar-title-ar">التدرج المنظم</div>
+              <p class="pillar-desc">
+                Guiding students smoothly from core definitions to complex problem-solving with methodical, stepped
+                progression.
+              </p>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fas fa-chart-line"></i></div>
+              <h3 class="pillar-title">Bloom's Taxonomy</h3>
+              <div class="pillar-title-ar">مستويات بلوم المعرفية</div>
+              <p class="pillar-desc">
+                Engineering questions and assessment tools that evaluate recall, understanding, application, and
+                higher-order analytical thinking.
+              </p>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fas fa-laptop-code"></i></div>
+              <h3 class="pillar-title">Digital Educational Tools</h3>
+              <div class="pillar-title-ar">الأدوات الرقمية الحديثة</div>
+              <p class="pillar-desc">
+                Enriching explanations with interactive dynamic geometry (GeoGebra), structured slides, and multimedia
+                instructional aids.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. TEACHING PHILOSOPHY SECTION
+         ========================================================================== -->
+    <section class="section section-alt" id="philosophy">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-quote-left"></i> Core Beliefs</span>
+          <h2 class="section-title">Teaching Philosophy</h2>
+          <div class="section-subtitle-ar">فلسفة التدريس</div>
+        </div>
+
+        <!-- Prominent Quote Banner -->
+        <div class="philosophy-banner reveal">
+          <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+          <blockquote class="philosophy-quote-en">
+            "Mathematics is not a collection of formulas to memorize; it is a way of understanding relationships,
+            analyzing problems, and reaching solutions."
+          </blockquote>
+          <blockquote class="philosophy-quote-ar">
+            "الرياضيات ليست مجموعة من القوانين التي يجب حفظها، بل طريقة لفهم العلاقات وتحليل المشكلات والوصول إلى الحل."
+          </blockquote>
+        </div>
+
+        <!-- 8 Supporting Principles -->
+        <div class="principles-grid">
+          <div class="principle-card reveal delay-1">
+            <div class="principle-number">01</div>
+            <div class="principle-text-en">Simplify complex mathematical concepts</div>
+            <div class="principle-text-ar">تبسيط المفاهيم الرياضية المعقدة</div>
+          </div>
+
+          <div class="principle-card reveal delay-2">
+            <div class="principle-number">02</div>
+            <div class="principle-text-en">Build understanding before memorization</div>
+            <div class="principle-text-ar">بناء الفهم الحقيقي قبل الحفظ</div>
+          </div>
+
+          <div class="principle-card reveal delay-3">
+            <div class="principle-number">03</div>
+            <div class="principle-text-en">Move gradually from concepts to applications</div>
+            <div class="principle-text-ar">الانتقال المتدرج من المفهوم إلى التطبيق</div>
+          </div>
+
+          <div class="principle-card reveal delay-4">
+            <div class="principle-number">04</div>
+            <div class="principle-text-en">Use varied practice</div>
+            <div class="principle-text-ar">توظيف تدريبات متنوعة ومتدرجة</div>
+          </div>
+
+          <div class="principle-card reveal delay-1">
+            <div class="principle-number">05</div>
+            <div class="principle-text-en">Consider individual differences</div>
+            <div class="principle-text-ar">مراعاة الفروق الفردية بين المتعلمين</div>
+          </div>
+
+          <div class="principle-card reveal delay-2">
+            <div class="principle-number">06</div>
+            <div class="principle-text-en">Use assessment to measure real understanding</div>
+            <div class="principle-text-ar">قياس الفهم الحقيقي بأدوات تقويم دقيقة</div>
+          </div>
+
+          <div class="principle-card reveal delay-3">
+            <div class="principle-number">07</div>
+            <div class="principle-text-en">Integrate Bloom's Taxonomy</div>
+            <div class="principle-text-ar">تطبيق مستويات بلوم المعرفية في التقييم</div>
+          </div>
+
+          <div class="principle-card reveal delay-4">
+            <div class="principle-number">08</div>
+            <div class="principle-text-en">Combine traditional teaching with modern digital tools</div>
+            <div class="principle-text-ar">الجمع بين أصالة التدريس والوسائل الرقمية</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. CAREER OBJECTIVE SECTION
+         ========================================================================== -->
+    <section class="section" id="objective">
+      <div class="container">
+        <div class="career-card reveal">
+          <div class="career-icon-box">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <div>
+            <h3 class="career-title">Career Objective | الهدف المهني</h3>
+            <p class="career-text-en">
+              "My professional objective is to continue developing as a modern Mathematics Educator by combining strong
+              mathematical knowledge, effective teaching strategies, educational content design, and digital tools to
+              create clearer and more meaningful learning experiences for students."
+            </p>
+            <p class="career-text-ar">
+              "أسعى إلى الاستمرار في تطوير نفسي كمعلم رياضيات معاصر، من خلال الجمع بين المعرفة الرياضية، واستراتيجيات
+              التدريس الفعالة، وتصميم المحتوى التعليمي، والأدوات الرقمية؛ بهدف تقديم تجارب تعلم أكثر وضوحًا وفاعلية
+              وتأثيرًا للطلاب."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. EXPERIENCE SECTION
+         ========================================================================== -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-briefcase"></i> Professional Path</span>
+          <h2 class="section-title">Teaching Experience</h2>
+          <div class="section-subtitle-ar">الخبرة المهنية</div>
+          <p class="section-desc">
+            A proven record of 5 years in mathematics education, workbook publishing, and curricular content design.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1: Main Role -->
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fas fa-chalkboard-user"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Mathematics Teacher</h3>
+                  <div class="role-title-ar">معلم رياضيات</div>
+                </div>
+                <span class="exp-badge">5 Years of Experience</span>
+              </div>
+              <div class="timeline-location">
+                <i class="fas fa-location-dot"></i> Egypt | جمهورية مصر العربية
+              </div>
+
+              <div class="experience-list">
+                <div class="experience-point">Teaching Mathematics for preparatory and secondary students</div>
+                <div class="experience-point">Providing selected university-level mathematics instruction</div>
+                <div class="experience-point">Preparing lectures and structured lessons</div>
+                <div class="experience-point">Developing revision materials</div>
+                <div class="experience-point">Designing assessments</div>
+                <div class="experience-point">Using Bloom's Taxonomy in assessment design</div>
+                <div class="experience-point">Creating educational workbooks</div>
+                <div class="experience-point">Developing video-based educational content</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. FEATURED PROJECT: ELHUSSIENI MATHEMATICS SERIES (2026)
+         ========================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-layer-group"></i> Flagship Publication</span>
+          <h2 class="section-title">Elhussieni Series in Mathematics</h2>
+          <div class="section-subtitle-ar">سلسلة الحسيني في الرياضيات — 2026</div>
+        </div>
+
+        <!-- Project Intro Card -->
+        <div class="project-showcase reveal">
+          <div class="project-intro-grid">
+            <div>
+              <div class="project-badge-group">
+                <span class="project-year-badge">Year 2026</span>
+                <span class="project-type-badge">Educational Workbook Project</span>
+              </div>
+              <h3 class="project-name-main">The Elhussieni Mathematics Series</h3>
+              <div class="project-name-ar">سلسلة تعليمية متكاملة للمرحلة الإعدادية</div>
+              <p class="project-desc-p">
+                The Elhussieni Mathematics Series is an educational workbook project designed for preparatory students,
+                structured similarly to professional supplementary textbooks. The series focuses on simplifying the
+                curriculum, presenting concepts clearly, providing varied practice, and supporting students through
+                comprehensive revision.
+              </p>
+            </div>
+            <div>
+              <div class="project-desc-ar-p">
+                "سلسلة الحسيني في الرياضيات هي مشروع تعليمي مخصص لطلاب المرحلة الإعدادية، تم إعدادها في صورة ملازم
+                تعليمية تشبه الكتب الخارجية. تركز السلسلة على تبسيط المنهج، تقديم المفاهيم بصورة واضحة ومنظمة، توفير
+                تدريبات متنوعة، وإعداد مراجعات شاملة تساعد الطالب على الانتقال من الفهم إلى التطبيق والتميز."
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 Preparatory Covers Gallery -->
+          <div class="series-gallery">
+            <!-- Grade 1 -->
+            <article class="book-card" data-grade="1">
+              <div class="book-cover-frame">
+                <img src="assets/series-grade-1.jpg" onerror="this.onerror=null; this.src='assets/series-grade-1.svg';"
+                  alt="Elhussieni Mathematics Series - First Preparatory Grade 2026" class="book-cover-img" width="700"
+                  height="960" loading="lazy">
+                <div class="cover-overlay">
+                  <span class="overlay-btn"><i class="fas fa-magnifying-glass-plus"></i> View Full Cover</span>
+                </div>
+              </div>
+              <div class="book-info">
+                <div class="book-badge-row">
+                  <span class="grade-tag">Preparatory Level</span>
+                  <span class="year-tag">2026</span>
+                </div>
+                <h4 class="book-title-en">First Preparatory Grade</h4>
+                <div class="book-title-ar">الصف الأول الإعدادي</div>
+                <div class="book-features">
+                  Algebra & Geometry • Structured concepts & graduated practice.
+                </div>
+              </div>
+            </article>
+
+            <!-- Grade 2 -->
+            <article class="book-card" data-grade="2">
+              <div class="book-cover-frame">
+                <img src="assets/series-grade-2.jpg" onerror="this.onerror=null; this.src='assets/series-grade-2.svg';"
+                  alt="Elhussieni Mathematics Series - Second Preparatory Grade 2026" class="book-cover-img" width="700"
+                  height="960" loading="lazy">
+                <div class="cover-overlay">
+                  <span class="overlay-btn"><i class="fas fa-magnifying-glass-plus"></i> View Full Cover</span>
+                </div>
+              </div>
+              <div class="book-info">
+                <div class="book-badge-row">
+                  <span class="grade-tag">Preparatory Level</span>
+                  <span class="year-tag">2026</span>
+                </div>
+                <h4 class="book-title-en">Second Preparatory Grade</h4>
+                <div class="book-title-ar">الصف الثاني الإعدادي</div>
+                <div class="book-features">
+                  Real Numbers & Geometric Proofs • Comprehensive question bank.
+                </div>
+              </div>
+            </article>
+
+            <!-- Grade 3 -->
+            <article class="book-card" data-grade="3">
+              <div class="book-cover-frame">
+                <img src="assets/series-grade-3.jpg" onerror="this.onerror=null; this.src='assets/series-grade-3.svg';"
+                  alt="Elhussieni Mathematics Series - Third Preparatory Grade 2026" class="book-cover-img" width="700"
+                  height="960" loading="lazy">
+                <div class="cover-overlay">
+                  <span class="overlay-btn"><i class="fas fa-magnifying-glass-plus"></i> View Full Cover</span>
+                </div>
+              </div>
+              <div class="book-info">
+                <div class="book-badge-row">
+                  <span class="grade-tag">Preparatory Certificate</span>
+                  <span class="year-tag">2026</span>
+                </div>
+                <h4 class="book-title-en">Third Preparatory Grade</h4>
+                <div class="book-title-ar">الصف الثالث الإعدادي</div>
+                <div class="book-features">
+                  Trigonometry & Analytical Geometry • Final exam readiness & Bloom models.
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. UNIVERSITY MATHEMATICS CONTENT SECTION
+         ========================================================================== -->
+    <section class="section section-alt" id="university">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-graduation-cap"></i> Higher Education</span>
+          <h2 class="section-title">University Mathematics Content</h2>
+          <div class="section-subtitle-ar">المحتوى الرياضي الجامعي</div>
+        </div>
+
+        <div class="uni-intro-box reveal">
+          <div class="uni-intro-grid">
+            <p class="uni-desc-en">
+              "In addition to school-level teaching, I create video-based explanations for selected university-level
+              mathematics courses, focusing on clear presentation, structured explanations, and breaking complex
+              mathematical topics into understandable steps."
+            </p>
+            <div class="uni-desc-ar">
+              "إلى جانب تدريس مراحل التعليم المدرسي، أقدم محتوى مرئيًا لشرح بعض المقررات الجامعية في الرياضيات، مع
+              التركيز على تنظيم المادة العلمية وتبسيط المفاهيم الرياضية وشرحها بصورة متدرجة."
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Lecture Placeholders (No Fake YouTube Links) -->
+        <div class="video-placeholders-grid">
+          <!-- Placeholder 1: Calculus -->
+          <div class="lecture-card reveal delay-1">
+            <div class="lecture-thumbnail">
+              <div class="lecture-math-formula">∫ f(x) dx</div>
+              <div class="play-circle"><i class="fas fa-play"></i></div>
+              <span class="coming-soon-badge">Video Coming Soon</span>
+            </div>
+            <div class="lecture-details">
+              <div class="lecture-tag">Calculus & Analysis</div>
+              <h4 class="lecture-title">University Mathematics Lecture</h4>
+              <p class="lecture-desc">Step-by-step breakdown of fundamental concepts, limits, differentiation, and
+                integration methods.</p>
+            </div>
+          </div>
+
+          <!-- Placeholder 2: Linear Algebra -->
+          <div class="lecture-card reveal delay-2">
+            <div class="lecture-thumbnail">
+              <div class="lecture-math-formula">[A][X] = [B]</div>
+              <div class="play-circle"><i class="fas fa-play"></i></div>
+              <span class="coming-soon-badge">Video Coming Soon</span>
+            </div>
+            <div class="lecture-details">
+              <div class="lecture-tag">Linear Algebra</div>
+              <h4 class="lecture-title">University Mathematics Lecture</h4>
+              <p class="lecture-desc">Structured visual explanations of matrices, vector spaces, linear transformations,
+                and determinants.</p>
+            </div>
+          </div>
+
+          <!-- Placeholder 3: Real Analysis -->
+          <div class="lecture-card reveal delay-3">
+            <div class="lecture-thumbnail">
+              <div class="lecture-math-formula">∀ ε &gt; 0, ∃ δ &gt; 0</div>
+              <div class="play-circle"><i class="fas fa-play"></i></div>
+              <span class="coming-soon-badge">Video Coming Soon</span>
+            </div>
+            <div class="lecture-details">
+              <div class="lecture-tag">Real Analysis</div>
+              <h4 class="lecture-title">University Mathematics Lecture</h4>
+              <p class="lecture-desc">Clear exposition of mathematical proofs, sequences, convergence, and rigorous
+                analytical theorems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         10. EDUCATIONAL CONTENT DEVELOPMENT SECTION
+         ========================================================================== -->
+    <section class="section" id="content-dev">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-diagram-project"></i> Pedagogical Architecture</span>
+          <h2 class="section-title">Educational Content Development</h2>
+          <div class="section-subtitle-ar">تطوير المحتوى التعليمي</div>
+          <p class="section-desc">
+            Holistic methodology for crafting learning resources from lecture plans to diagnostic evaluations.
+          </p>
+        </div>
+
+        <div class="content-dev-grid">
+          <!-- Card 1 -->
+          <div class="content-card reveal delay-1">
+            <div class="content-card-header">
+              <div class="content-icon"><i class="fas fa-chalkboard"></i></div>
+              <span class="content-index">01</span>
+            </div>
+            <h3 class="content-title">Lecture Preparation</h3>
+            <p class="content-desc">Organizing scientific and mathematical content into structured lectures with clarity
+              and purpose.</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content-card reveal delay-2">
+            <div class="content-card-header">
+              <div class="content-icon"><i class="fas fa-file-lines"></i></div>
+              <span class="content-index">02</span>
+            </div>
+            <h3 class="content-title">Revision Materials</h3>
+            <p class="content-desc">Designing comprehensive revision resources covering key concepts, problem types, and
+              varied exercises.</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card reveal delay-3">
+            <div class="content-card-header">
+              <div class="content-icon"><i class="fas fa-clipboard-check"></i></div>
+              <span class="content-index">03</span>
+            </div>
+            <h3 class="content-title">Assessment Design</h3>
+            <p class="content-desc">Creating structured assessments that measure real understanding, procedural
+              accuracy, and practical application.</p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card reveal delay-1">
+            <div class="content-card-header">
+              <div class="content-icon"><i class="fas fa-chart-pie"></i></div>
+              <span class="content-index">04</span>
+            </div>
+            <h3 class="content-title">Bloom's Taxonomy</h3>
+            <p class="content-desc">Designing and distributing questions across cognitive levels according to Bloom's
+              Taxonomy from knowledge to evaluation.</p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="content-card reveal delay-2">
+            <div class="content-card-header">
+              <div class="content-icon"><i class="fas fa-book"></i></div>
+              <span class="content-index">05</span>
+            </div>
+            <h3 class="content-title">Educational Workbooks</h3>
+            <p class="content-desc">Creating organized mathematics workbooks and supplementary learning materials
+              formatted to textbook standards.</p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="content-card reveal delay-3">
+            <div class="content-card-header">
+              <div class="content-icon"><i class="fas fa-video"></i></div>
+              <span class="content-index">06</span>
+            </div>
+            <h3 class="content-title">Video-Based Learning</h3>
+            <p class="content-desc">Creating explanatory video content for selected university mathematics courses with
+              stepped visual derivation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         11. SKILLS SECTION
+         ========================================================================== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-tools"></i> Core Competencies</span>
+          <h2 class="section-title">Professional Skills</h2>
+          <div class="section-subtitle-ar">المهارات والخبرات</div>
+          <p class="section-desc">
+            Specific pedagogical specializations and educational digital productivity suites.
+          </p>
+        </div>
+
+        <div class="skills-container-grid">
+          <!-- Category 1: Teaching & Education -->
+          <div class="skill-cat-card reveal">
+            <div class="skill-cat-header">
+              <div>
+                <h3 class="skill-cat-title">Teaching & Education</h3>
+                <div class="skill-cat-title-ar">التدريس والتربية</div>
+              </div>
+              <span class="level-badge level-excellent">Level: Excellent</span>
+            </div>
+
+            <div class="skill-chips-wrap">
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Mathematics Teaching</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Lesson Planning</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Lecture Preparation</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Assessment Design</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Bloom's Taxonomy</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Educational Content Development</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Revision & Review Design</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Classroom Teaching</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Digital & Educational Tools -->
+          <div class="skill-cat-card reveal delay-1">
+            <div class="skill-cat-header">
+              <div>
+                <h3 class="skill-cat-title">Digital & Educational Tools</h3>
+                <div class="skill-cat-title-ar">الأدوات الرقمية والتعليمية</div>
+              </div>
+              <span class="level-badge level-very-good">Level: Very Good</span>
+            </div>
+
+            <div class="skill-chips-wrap">
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Microsoft Word</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Microsoft PowerPoint</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Microsoft Office</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Canva</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">GeoGebra</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">AI Tools</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-dot"></span>
+                <span class="chip-name">Picsart</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         12. EDUCATION & ACHIEVEMENTS SECTION
+         ========================================================================== -->
+    <section class="section" id="education-achievements">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-medal"></i> Credentials & Honors</span>
+          <h2 class="section-title">Education & Achievements</h2>
+          <div class="section-subtitle-ar">المؤهل العلمي والشهادات</div>
+        </div>
+
+        <div class="edu-achieve-grid">
+          <!-- Education Card -->
+          <div class="edu-card reveal">
+            <span class="section-badge"><i class="fas fa-university"></i> Academic Degree</span>
+            <h3 class="edu-degree">Bachelor of Science and Education</h3>
+            <div class="edu-degree-ar">بكالوريوس العلوم والتربية</div>
+
+            <div class="edu-dept">
+              <i class="fas fa-calculator" style="color: var(--orange-500); margin-right: 6px;"></i>
+              Mathematics Specialization | تخصص رياضيات
+            </div>
+            <div class="edu-faculty">
+              Faculty of Education • General Mathematics Department
+              <br>
+              كلية التربية – قسم الرياضيات العام
+            </div>
+          </div>
+
+          <!-- Achievements List -->
+          <div class="achievements-list reveal delay-1">
+            <!-- Achievement 1 -->
+            <div class="achievement-card">
+              <div class="achieve-year">2019</div>
+              <div class="achieve-content">
+                <h4 class="achieve-title-en">Distinguished Placement – Little Teacher Competition</h4>
+                <div class="achieve-title-ar">المركز المتميز في مسابقة المعلم الصغير</div>
+                <p class="achieve-desc">
+                  Received a Distinguished Placement in the Little Teacher Competition at the Upper Egypt sector level.
+                  <br>
+                  الحصول على المركز المتميز في مسابقة المعلم الصغير على مستوى قطاع الصعيد.
+                </p>
+              </div>
+            </div>
+
+            <!-- Achievement 2 -->
+            <div class="achievement-card">
+              <div class="achieve-year">2025</div>
+              <div class="achieve-content">
+                <h4 class="achieve-title-en">Digital Assessment Skills Certificate</h4>
+                <div class="achieve-title-ar">شهادة مهارات التقييم الرقمي</div>
+                <p class="achieve-desc">
+                  Certificate in Digital Assessment Skills for the Mathematics Division, Faculty of Education.
+                  <br>
+                  شهادة في دورة مهارات التقييم الرقمي لشعبة الرياضيات بكلية التربية.
+                </p>
+              </div>
+            </div>
+
+            <!-- Achievement 3 -->
+            <div class="achievement-card">
+              <div class="achieve-year">2026</div>
+              <div class="achieve-content">
+                <h4 class="achieve-title-en">Elhussieni Mathematics Series</h4>
+                <div class="achieve-title-ar">سلسلة الحسيني في الرياضيات</div>
+                <p class="achieve-desc">
+                  Developed the comprehensive Elhussieni Mathematics Series workbooks for preparatory students across
+                  all three grades.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         13. SERVICES SECTION
+         ========================================================================== -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-handshake"></i> Offerings</span>
+          <h2 class="section-title">Educational Services</h2>
+          <div class="section-subtitle-ar">الخدمات التعليمية</div>
+          <p class="section-desc">
+            Professional instructional, curricular, and assessment design solutions for schools, students, and
+            educators.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card reveal delay-1">
+            <div class="service-icon-box"><i class="fas fa-chalkboard-user"></i></div>
+            <h3 class="service-title-en">Mathematics Teaching</h3>
+            <div class="service-title-ar">تدريس الرياضيات</div>
+            <p class="service-desc">Professional mathematics instruction for preparatory and secondary students with
+              step-by-step clarity.</p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card reveal delay-2">
+            <div class="service-icon-box"><i class="fas fa-pen-ruler"></i></div>
+            <h3 class="service-title-en">Educational Content Development</h3>
+            <div class="service-title-ar">إعداد المحتوى التعليمي</div>
+            <p class="service-desc">Creating structured mathematics materials, worksheets, lectures, and pedagogical
+              revision resources.</p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card reveal delay-3">
+            <div class="service-icon-box"><i class="fas fa-square-check"></i></div>
+            <h3 class="service-title-en">Assessment Design</h3>
+            <div class="service-title-ar">تصميم أدوات التقييم</div>
+            <p class="service-desc">Designing assessments and questions aligned with explicit learning objectives and
+              Bloom's Taxonomy.</p>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card reveal delay-1">
+            <div class="service-icon-box"><i class="fas fa-rotate"></i></div>
+            <h3 class="service-title-en">Mathematics Review & Revision</h3>
+            <div class="service-title-ar">المراجعات الشاملة والتدريب</div>
+            <p class="service-desc">Preparing comprehensive revision materials designed to reinforce understanding and
+              improve problem-solving skills.</p>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card reveal delay-2">
+            <div class="service-icon-box"><i class="fas fa-play"></i></div>
+            <h3 class="service-title-en">University Mathematics Explanations</h3>
+            <div class="service-title-ar">شروحات الرياضيات الجامعية</div>
+            <p class="service-desc">Creating clear educational explanations for selected university mathematics courses
+              with visual proofs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         14. CONTACT SECTION
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge"><i class="fas fa-envelope-open-text"></i> Connect</span>
+          <h2 class="section-title">Get in Touch</h2>
+          <div class="section-subtitle-ar">تواصل معي</div>
+          <p class="section-desc">
+            Available for educational inquiries, school programs, and academic collaboration.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Profile Card & Verified Socials -->
+          <div class="contact-info-card reveal">
+            <h3 class="contact-header-name">Mohamed Elhussieni</h3>
+            <div class="contact-header-name-ar">محمد الحسيني</div>
+            <div class="contact-header-title">Mathematics Teacher – Egypt | معلم رياضيات</div>
+
+            <div class="social-links-list">
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/share/14rubcenuVZ/" target="_blank" rel="noopener noreferrer"
+                class="social-link-item">
+                <div class="social-item-left">
+                  <div class="social-icon-badge"><i class="fab fa-facebook-f"></i></div>
+                  <div>
+                    <div class="social-text-main">Facebook</div>
+                    <div class="social-text-handle">Mohamed Elhussieni</div>
+                  </div>
+                </div>
+                <div class="social-arrow"><i class="fas fa-arrow-up-right-from-square"></i></div>
+              </a>
+
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/hussieni.126/" target="_blank" rel="noopener noreferrer"
+                class="social-link-item">
+                <div class="social-item-left">
+                  <div class="social-icon-badge"><i class="fab fa-instagram"></i></div>
+                  <div>
+                    <div class="social-text-main">Instagram</div>
+                    <div class="social-text-handle">@hussieni.126</div>
+                  </div>
+                </div>
+                <div class="social-arrow"><i class="fas fa-arrow-up-right-from-square"></i></div>
+              </a>
+
+              <!-- Other platforms note: Coming Soon -->
+              <div class="social-link-item" style="opacity: 0.65; cursor: default;">
+                <div class="social-item-left">
+                  <div class="social-icon-badge"><i class="fas fa-satellite-dish"></i></div>
+                  <div>
+                    <div class="social-text-main">Additional Channels</div>
+                    <div class="social-text-handle">Coming Soon</div>
+                  </div>
+                </div>
+                <span class="grade-tag">Stay Tuned</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Clean HTML Contact Form -->
+          <div class="contact-form-card reveal delay-1">
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Full Name / الاسم الكريم *</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. Ahmed Mahmoud" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address / البريد الإلكتروني *</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. name@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject / موضوع الرسالة</label>
+                <input type="text" id="contact-subject" class="form-input"
+                  placeholder="e.g. Educational Consultation / Workbook Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message / تفاصيل الرسالة *</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Write your message here..."
+                  required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fas fa-paper-plane"></i>
+                <span>Send Message / إرسال الرسالة</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       15. LIGHTBOX MODAL (BOOK COVERS)
+       ========================================================================== -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox-content">
+      <button id="lightbox-close" class="lightbox-close-btn" aria-label="Close Lightbox">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="lightbox-img-wrap">
+        <img id="lightbox-img" src="" alt="Book Cover" class="lightbox-img">
+      </div>
+      <div class="lightbox-caption">
+        <h4 id="lightbox-title" class="lightbox-title"></h4>
+        <div id="lightbox-subtitle" class="lightbox-subtitle"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Message Element -->
+  <div id="toast-msg" class="toast-msg" role="alert"></div>
+
+  <!-- ==========================================================================
+       16. FOOTER SECTION
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-title">Mohamed Elhussieni</div>
+          <div class="footer-brand-subtitle">Mathematics Teacher – Egypt | محمد الحسيني — معلم رياضيات</div>
+          <div class="footer-quote-en">"Teaching Mathematics with clarity, structure, and purpose."</div>
+          <div class="footer-quote-ar">"تعليم الرياضيات بوضوح وتنظيم وهدف."</div>
+        </div>
+
+        <div class="footer-social-icons">
+          <a href="https://www.facebook.com/share/14rubcenuVZ/" target="_blank" rel="noopener noreferrer"
+            class="footer-social-btn" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/hussieni.126/" target="_blank" rel="noopener noreferrer"
+            class="footer-social-btn" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Mohamed Elhussieni. All Rights Reserved.
+        </div>
+        <div>
+          <a href="#home" id="back-to-top" class="back-to-top-btn">
+            <i class="fas fa-arrow-up"></i>
+            <span>Back to Top</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Master JavaScript Logic -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
